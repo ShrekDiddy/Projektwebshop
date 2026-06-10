@@ -34,16 +34,20 @@ nav a:hover {
     color: #38bdf8;
 }
    
-  main {
-    background-image: url(../kepek/aruhaz.jfif);
+ 
+    main {
+    background:
+        linear-gradient(rgba(255,255,255,0.7),
+                        rgba(255,255,255,0.7)),
+        url("../kepek/aruhaz.jfif");
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.5;
     min-height: 500px;
     margin: 0px;
-    
-  }
+}
+  
   footer {
     border-top: 1px solid #999;
     display: flex;
