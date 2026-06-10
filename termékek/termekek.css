@@ -59,6 +59,7 @@ nav a:hover {
     text-align: center;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     transition: 0.3s;
+    position:relative;
 }
  
 .product:hover {
@@ -72,18 +73,18 @@ nav a:hover {
  
 .product h3 {
     margin: 15px 0 10px;
-    color: #1c97a0;
+    color: #ffffff;
 }
  
 .product p {
-    color: #1f9fb6;
+    color: #ffffff;
     margin-bottom: 10px;
 }
  
 .price {
     display: block;
     font-size: 22px;
-    color: #dc2626;
+    color: #bdbe4b;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -151,5 +152,35 @@ footer {
 
     padding: 8px 15px;
     border-radius: 15px;
+    cursor: pointer;
+}
+.sale{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background:red;
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+    font-size:12px;
+}
+.product-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-footer button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c53815;
+    color: white;
     cursor: pointer;
 }
