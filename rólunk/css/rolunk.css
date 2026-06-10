@@ -156,3 +156,7 @@ footer {
     border-radius: 15px;
     letter-spacing: 20px;
   }
+ 
+button:hover {
+    background-color: #1d4ed8;
+}

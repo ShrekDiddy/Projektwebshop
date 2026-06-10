@@ -87,3 +87,16 @@ footer {
       padding: 1rem;
     }
 }
+.dijak{
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding: 5px 0;
+    background-color: #1b0505;
+    border-radius: 15px;
+    letter-spacing: 20px;
+  }
+  button:hover {
+    background-color: #1d4ed8;
+}
