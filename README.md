@@ -12,7 +12,7 @@ Funkciók:
 
 -Akciós termékek kiemelése
 
--Kosár gomb minden terméknél
+-Kosár gomb minden terméknél(nem csinál semmit mert a kosarat ellopták)
 
 -Rólunk oldal a csapat bemutatásával
 
