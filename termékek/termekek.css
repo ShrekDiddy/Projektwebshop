@@ -102,6 +102,9 @@ button {
 button:hover {
     background-color: #1d4ed8;
 }
+#kosar:hover {
+    background-color: #1d4ed8;
+}
  
 footer {
     border-top: 1px solid #999;
@@ -146,6 +149,8 @@ footer {
     letter-spacing: 20px;
   }
   #kosar {
+    color: black;
+    background-color: white;
     position: absolute;
     top: 20px;
     right: 20px;
